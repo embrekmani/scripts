@@ -6,11 +6,11 @@ script to set list of global environment variables defined in .profile
 
 in ~/.bashrc add the following lines
 
-`
+```
 if [ -f ~/.profile ]; then
     . ~/.profile
 fi
-`
+```
 
 create a .profile file in the script directory, adding variables like so:
 
