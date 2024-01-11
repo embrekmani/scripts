@@ -1,0 +1,19 @@
+{
+"aliases": [
+    {
+        "alias": "dev",
+        "command": "cd ~/dev",
+        "description": ""
+    },
+    {
+        "alias": "update",
+        "command": "sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoremove -y; sudo apt-get autoclean -y; sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y",
+        "description": "total system update"
+    },
+    {
+        "alias": "alth",
+        "command": "ls -alth",
+        "description": "list files in long format with readable file sizes, formatted by date/time"
+    }
+]
+}
