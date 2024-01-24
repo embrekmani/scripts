@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# make a script run on cron
-# sudo sh -c 'cd /path/to/script; ./set_cron.sh $NAME $TIME'
-
-NAME="$1"
-TIME="$2"
-SCRIPT="$1.sh"
+NAME="$1" # e.g. "script"
+TIME="$2" # e.g. hourly, daily, weekly, monthly
+SCRIPT="$1.sh" # script name + file extension
 
 # copy to root user
 echo "Copying script to root..."
